@@ -1,0 +1,159 @@
+/* Importando as fontes do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&family=Lalezar&display=swap');
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+/* Estilos globais */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Kadwa', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #191970;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 0;
+  font-family: 'Lalezar', sans-serif;
+  font-size: 2.5rem;
+}
+
+nav {
+  background-color: #333;
+  padding: 0.5rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Kadwa', sans-serif;
+  font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-family: 'Lalezar', sans-serif;
+  font-size: 2rem;
+  color: #191970;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-family: 'Kadwa', sans-serif;
+  line-height: 1.6;
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+
+.links {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.links h2 {
+  font-family: 'Lalezar', sans-serif;
+  font-size: 1.8rem;
+  color: #191970;
+}
+
+.links p {
+  font-family: 'Kadwa', sans-serif;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.links ul li {
+  margin-bottom: 0.5rem;
+}
+
+.links ul li a {
+  font-family: 'Kadwa', sans-serif;
+  font-size: 1.2rem;
+  color: #191970;
+  text-decoration: none;
+}
+
+.links ul li a:hover {
+  text-decoration: underline;
+}
+
+
+/* Estilos para a seção de contato */
+.contact {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact h2 {
+  font-family: 'Lalezar', sans-serif;
+  font-size: 1.8rem;
+  color: #191970;
+}
+
+.contact p {
+  font-family: 'Kadwa', sans-serif;
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.contact a {
+  color: #191970;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  margin: 2rem 0;
+  font-family: 'Lalezar', sans-serif;
+  color: #191970;
+}
